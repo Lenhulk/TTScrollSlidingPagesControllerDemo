@@ -3,4 +3,4 @@
 ***
 *效果图：*
 <br><br>
-![效果](https://d1wuojemv4s7aw.cloudfront.net/items/3O470F090B2m0R3Z3J0s/hello.gif)
+![效果](https://github.com/Lenhulk/TTScrollSlidingPagesControllerDemo/blob/master/SoccerScore/hello.gif)
