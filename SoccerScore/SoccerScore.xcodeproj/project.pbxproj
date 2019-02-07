@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C81CFA4B1DE30EA307976E9 /* libPods-SoccerScoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 147EAF51D2A7C0CB22A99F42 /* libPods-SoccerScoreTests.a */; };
+		2074C26E20E3490E0063F2F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C26D20E3490E0063F2F6 /* AppDelegate.m */; };
+		2074C27420E3490E0063F2F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2074C27220E3490E0063F2F6 /* Main.storyboard */; };
+		2074C27620E3490F0063F2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2074C27520E3490F0063F2F6 /* Assets.xcassets */; };
+		2074C27920E3490F0063F2F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2074C27720E3490F0063F2F6 /* LaunchScreen.storyboard */; };
+		2074C27C20E3490F0063F2F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C27B20E3490F0063F2F6 /* main.m */; };
+		2074C28620E3490F0063F2F6 /* SoccerScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C28520E3490F0063F2F6 /* SoccerScoreTests.m */; };
+		2074C29120E3490F0063F2F6 /* SoccerScoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C29020E3490F0063F2F6 /* SoccerScoreUITests.m */; };
+		2074C2A820E34E670063F2F6 /* NTNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2A220E34E670063F2F6 /* NTNetManager.m */; };
+		2074C2A920E34E670063F2F6 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2A520E34E670063F2F6 /* UserManager.m */; };
+		2074C2AA20E34E670063F2F6 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2A720E34E670063F2F6 /* UserModel.m */; };
+		2074C2AD20E36C810063F2F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2AC20E36C810063F2F6 /* ViewController.m */; };
+		2074C2C220E36DDD0063F2F6 /* diagmonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2074C2B220E36DDD0063F2F6 /* diagmonds.png */; };
+		2074C2C320E36DDD0063F2F6 /* diagmonds_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 2074C2B320E36DDD0063F2F6 /* diagmonds_@2X.png */; };
+		2074C2C420E36DDD0063F2F6 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2074C2B420E36DDD0063F2F6 /* readme.txt */; };
+		2074C2C520E36DDD0063F2F6 /* TTBlackTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2B620E36DDD0063F2F6 /* TTBlackTriangle.m */; };
+		2074C2C620E36DDD0063F2F6 /* TTScrollSlidingPagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2B820E36DDD0063F2F6 /* TTScrollSlidingPagesController.m */; };
+		2074C2C720E36DDD0063F2F6 /* TTScrollViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2BA20E36DDD0063F2F6 /* TTScrollViewWrapper.m */; };
+		2074C2C820E36DDD0063F2F6 /* TTSlidingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2BC20E36DDD0063F2F6 /* TTSlidingPage.m */; };
+		2074C2C920E36DDD0063F2F6 /* TTSlidingPageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2C020E36DDD0063F2F6 /* TTSlidingPageTitle.m */; };
+		2074C2E220E36FD20063F2F6 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2074C2CE20E36FD20063F2F6 /* error@2x.png */; };
+		2074C2E320E36FD20063F2F6 /* MBProgressHUD+LT.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2D020E36FD20063F2F6 /* MBProgressHUD+LT.m */; };
+		2074C2E420E36FD20063F2F6 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2074C2D120E36FD20063F2F6 /* success@2x.png */; };
+		2074C2E520E36FD20063F2F6 /* NSAttributedString+NTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2D320E36FD20063F2F6 /* NSAttributedString+NTExtension.m */; };
+		2074C2E620E36FD20063F2F6 /* NSObject+NTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2D520E36FD20063F2F6 /* NSObject+NTExtension.m */; };
+		2074C2E720E36FD20063F2F6 /* NSString+ResignExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2D720E36FD20063F2F6 /* NSString+ResignExtension.m */; };
+		2074C2E820E36FD20063F2F6 /* UIColor+NTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2D920E36FD20063F2F6 /* UIColor+NTExtension.m */; };
+		2074C2E920E36FD20063F2F6 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2DB20E36FD20063F2F6 /* UIImage+Extension.m */; };
+		2074C2EA20E36FD20063F2F6 /* UIView+NTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2DD20E36FD20063F2F6 /* UIView+NTExtension.m */; };
+		2074C2EB20E36FD20063F2F6 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2DF20E36FD20063F2F6 /* UIViewController+Alert.m */; };
+		2074C2EC20E36FD20063F2F6 /* ghjt.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2074C2E020E36FD20063F2F6 /* ghjt.TTF */; };
+		2074C2EF20E370570063F2F6 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2ED20E370560063F2F6 /* AppUtils.m */; };
+		2074C2F720E3717F0063F2F6 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2F220E3717F0063F2F6 /* BaseNavigationController.m */; };
+		2074C2F820E3717F0063F2F6 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2F420E3717F0063F2F6 /* BaseTabBarController.m */; };
+		2074C2F920E3717F0063F2F6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C2F620E3717F0063F2F6 /* BaseViewController.m */; };
+		2074C30420E378BD0063F2F6 /* SSGameScorePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C30320E378BD0063F2F6 /* SSGameScorePageViewController.m */; };
+		2074C31820E3823A0063F2F6 /* TTUITableViewZoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C31720E382390063F2F6 /* TTUITableViewZoomController.m */; };
+		2074C31B20E3AA2C0063F2F6 /* SSGameScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C31A20E3AA2C0063F2F6 /* SSGameScoreTableViewController.m */; };
+		2074C31F20E3AADB0063F2F6 /* SSInformationListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C31D20E3AADB0063F2F6 /* SSInformationListCell.m */; };
+		2074C32020E3AADB0063F2F6 /* SSInformationListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2074C31E20E3AADB0063F2F6 /* SSInformationListCell.xib */; };
+		2074C32320E3ADDF0063F2F6 /* SSInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C32220E3ADDF0063F2F6 /* SSInformationModel.m */; };
+		2074C32620E3AE8E0063F2F6 /* SSGamescoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C32520E3AE8E0063F2F6 /* SSGamescoreModel.m */; };
+		2074C32F20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C32D20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.m */; };
+		2074C33020E4ABE00063F2F6 /* SSGamescoreGunqiuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2074C32E20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.xib */; };
+		2074C33320E50EB10063F2F6 /* SSInformationPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C33220E50EB10063F2F6 /* SSInformationPageViewController.m */; };
+		2074C33620E50EF10063F2F6 /* SSInformationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C33520E50EF10063F2F6 /* SSInformationTableViewController.m */; };
+		2074C33A20E6526B0063F2F6 /* ArticalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C33720E6526B0063F2F6 /* ArticalDetailViewController.m */; };
+		2074C33B20E6526B0063F2F6 /* newsDetail.css in Resources */ = {isa = PBXBuildFile; fileRef = 2074C33820E6526B0063F2F6 /* newsDetail.css */; };
+		2074C3A820E7BAE80063F2F6 /* SSGamescoreDateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C3A720E7BAE80063F2F6 /* SSGamescoreDateHeader.m */; };
+		2074C3AA20E7BAF20063F2F6 /* SSGamescoreDateHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2074C3A920E7BAF20063F2F6 /* SSGamescoreDateHeader.xib */; };
+		2074C3AD20E8C4370063F2F6 /* SSGameScoreAnalyseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C3AC20E8C4370063F2F6 /* SSGameScoreAnalyseViewController.m */; };
+		2074C3AF20E8C55B0063F2F6 /* SSGameScoreAnalyseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2074C3AE20E8C55B0063F2F6 /* SSGameScoreAnalyseViewController.xib */; };
+		2074C3B320E8E7B70063F2F6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2074C3B220E8E7B70063F2F6 /* NSString+Base64.m */; };
+		4A5A70A5871DC94957EB44A7 /* libPods-SoccerScoreUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 061857E3D126DBF781E7A607 /* libPods-SoccerScoreUITests.a */; };
+		7642A9F142AB7F23D8972BB9 /* libPods-SoccerScore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A436FD1AED7208EC3C3E0EDF /* libPods-SoccerScore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2074C28220E3490F0063F2F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2074C26120E3490D0063F2F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2074C26820E3490E0063F2F6;
+			remoteInfo = SoccerScore;
+		};
+		2074C28D20E3490F0063F2F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2074C26120E3490D0063F2F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2074C26820E3490E0063F2F6;
+			remoteInfo = SoccerScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061857E3D126DBF781E7A607 /* libPods-SoccerScoreUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoccerScoreUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147EAF51D2A7C0CB22A99F42 /* libPods-SoccerScoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoccerScoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2074C26920E3490E0063F2F6 /* SoccerScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2074C26C20E3490E0063F2F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2074C26D20E3490E0063F2F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2074C27320E3490E0063F2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2074C27520E3490F0063F2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2074C27820E3490F0063F2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2074C27A20E3490F0063F2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2074C27B20E3490F0063F2F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2074C28120E3490F0063F2F6 /* SoccerScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2074C28520E3490F0063F2F6 /* SoccerScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoccerScoreTests.m; sourceTree = "<group>"; };
+		2074C28720E3490F0063F2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2074C28C20E3490F0063F2F6 /* SoccerScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2074C29020E3490F0063F2F6 /* SoccerScoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoccerScoreUITests.m; sourceTree = "<group>"; };
+		2074C29220E3490F0063F2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2074C2A120E34E670063F2F6 /* NTNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNetManager.h; sourceTree = "<group>"; };
+		2074C2A220E34E670063F2F6 /* NTNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNetManager.m; sourceTree = "<group>"; };
+		2074C2A420E34E670063F2F6 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		2074C2A520E34E670063F2F6 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		2074C2A620E34E670063F2F6 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		2074C2A720E34E670063F2F6 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		2074C2AB20E36C810063F2F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2074C2AC20E36C810063F2F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2074C2B220E36DDD0063F2F6 /* diagmonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diagmonds.png; sourceTree = "<group>"; };
+		2074C2B320E36DDD0063F2F6 /* diagmonds_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diagmonds_@2X.png"; sourceTree = "<group>"; };
+		2074C2B420E36DDD0063F2F6 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		2074C2B520E36DDD0063F2F6 /* TTBlackTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBlackTriangle.h; sourceTree = "<group>"; };
+		2074C2B620E36DDD0063F2F6 /* TTBlackTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBlackTriangle.m; sourceTree = "<group>"; };
+		2074C2B720E36DDD0063F2F6 /* TTScrollSlidingPagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollSlidingPagesController.h; sourceTree = "<group>"; };
+		2074C2B820E36DDD0063F2F6 /* TTScrollSlidingPagesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTScrollSlidingPagesController.m; sourceTree = "<group>"; };
+		2074C2B920E36DDD0063F2F6 /* TTScrollViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollViewWrapper.h; sourceTree = "<group>"; };
+		2074C2BA20E36DDD0063F2F6 /* TTScrollViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTScrollViewWrapper.m; sourceTree = "<group>"; };
+		2074C2BB20E36DDD0063F2F6 /* TTSlidingPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSlidingPage.h; sourceTree = "<group>"; };
+		2074C2BC20E36DDD0063F2F6 /* TTSlidingPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSlidingPage.m; sourceTree = "<group>"; };
+		2074C2BD20E36DDD0063F2F6 /* TTSlidingPageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSlidingPageDelegate.h; sourceTree = "<group>"; };
+		2074C2BE20E36DDD0063F2F6 /* TTSlidingPagesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSlidingPagesDataSource.h; sourceTree = "<group>"; };
+		2074C2BF20E36DDD0063F2F6 /* TTSlidingPageTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSlidingPageTitle.h; sourceTree = "<group>"; };
+		2074C2C020E36DDD0063F2F6 /* TTSlidingPageTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSlidingPageTitle.m; sourceTree = "<group>"; };
+		2074C2C120E36DDD0063F2F6 /* TTUIScrollViewSlidingPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUIScrollViewSlidingPages.h; sourceTree = "<group>"; };
+		2074C2CB20E36FD20063F2F6 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		2074C2CE20E36FD20063F2F6 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		2074C2CF20E36FD20063F2F6 /* MBProgressHUD+LT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LT.h"; sourceTree = "<group>"; };
+		2074C2D020E36FD20063F2F6 /* MBProgressHUD+LT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LT.m"; sourceTree = "<group>"; };
+		2074C2D120E36FD20063F2F6 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		2074C2D220E36FD20063F2F6 /* NSAttributedString+NTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+NTExtension.h"; sourceTree = "<group>"; };
+		2074C2D320E36FD20063F2F6 /* NSAttributedString+NTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+NTExtension.m"; sourceTree = "<group>"; };
+		2074C2D420E36FD20063F2F6 /* NSObject+NTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NTExtension.h"; sourceTree = "<group>"; };
+		2074C2D520E36FD20063F2F6 /* NSObject+NTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NTExtension.m"; sourceTree = "<group>"; };
+		2074C2D620E36FD20063F2F6 /* NSString+ResignExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ResignExtension.h"; sourceTree = "<group>"; };
+		2074C2D720E36FD20063F2F6 /* NSString+ResignExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ResignExtension.m"; sourceTree = "<group>"; };
+		2074C2D820E36FD20063F2F6 /* UIColor+NTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NTExtension.h"; sourceTree = "<group>"; };
+		2074C2D920E36FD20063F2F6 /* UIColor+NTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NTExtension.m"; sourceTree = "<group>"; };
+		2074C2DA20E36FD20063F2F6 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		2074C2DB20E36FD20063F2F6 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		2074C2DC20E36FD20063F2F6 /* UIView+NTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NTExtension.h"; sourceTree = "<group>"; };
+		2074C2DD20E36FD20063F2F6 /* UIView+NTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NTExtension.m"; sourceTree = "<group>"; };
+		2074C2DE20E36FD20063F2F6 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		2074C2DF20E36FD20063F2F6 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		2074C2E020E36FD20063F2F6 /* ghjt.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghjt.TTF; sourceTree = "<group>"; };
+		2074C2E120E36FD20063F2F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2074C2ED20E370560063F2F6 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
+		2074C2EE20E370560063F2F6 /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
+		2074C2F120E3717F0063F2F6 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		2074C2F220E3717F0063F2F6 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		2074C2F320E3717F0063F2F6 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		2074C2F420E3717F0063F2F6 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		2074C2F520E3717F0063F2F6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		2074C2F620E3717F0063F2F6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		2074C30220E378BD0063F2F6 /* SSGameScorePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGameScorePageViewController.h; sourceTree = "<group>"; };
+		2074C30320E378BD0063F2F6 /* SSGameScorePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGameScorePageViewController.m; sourceTree = "<group>"; };
+		2074C31620E382390063F2F6 /* TTUITableViewZoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUITableViewZoomController.h; sourceTree = "<group>"; };
+		2074C31720E382390063F2F6 /* TTUITableViewZoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUITableViewZoomController.m; sourceTree = "<group>"; };
+		2074C31920E3AA2C0063F2F6 /* SSGameScoreTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGameScoreTableViewController.h; sourceTree = "<group>"; };
+		2074C31A20E3AA2C0063F2F6 /* SSGameScoreTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGameScoreTableViewController.m; sourceTree = "<group>"; };
+		2074C31C20E3AADB0063F2F6 /* SSInformationListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSInformationListCell.h; sourceTree = "<group>"; };
+		2074C31D20E3AADB0063F2F6 /* SSInformationListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSInformationListCell.m; sourceTree = "<group>"; };
+		2074C31E20E3AADB0063F2F6 /* SSInformationListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSInformationListCell.xib; sourceTree = "<group>"; };
+		2074C32120E3ADDF0063F2F6 /* SSInformationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSInformationModel.h; sourceTree = "<group>"; };
+		2074C32220E3ADDF0063F2F6 /* SSInformationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSInformationModel.m; sourceTree = "<group>"; };
+		2074C32420E3AE8E0063F2F6 /* SSGamescoreModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGamescoreModel.h; sourceTree = "<group>"; };
+		2074C32520E3AE8E0063F2F6 /* SSGamescoreModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGamescoreModel.m; sourceTree = "<group>"; };
+		2074C32C20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGamescoreGunqiuCell.h; sourceTree = "<group>"; };
+		2074C32D20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGamescoreGunqiuCell.m; sourceTree = "<group>"; };
+		2074C32E20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSGamescoreGunqiuCell.xib; sourceTree = "<group>"; };
+		2074C33120E50EB10063F2F6 /* SSInformationPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSInformationPageViewController.h; sourceTree = "<group>"; };
+		2074C33220E50EB10063F2F6 /* SSInformationPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSInformationPageViewController.m; sourceTree = "<group>"; };
+		2074C33420E50EF10063F2F6 /* SSInformationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSInformationTableViewController.h; sourceTree = "<group>"; };
+		2074C33520E50EF10063F2F6 /* SSInformationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSInformationTableViewController.m; sourceTree = "<group>"; };
+		2074C33720E6526B0063F2F6 /* ArticalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticalDetailViewController.m; sourceTree = "<group>"; };
+		2074C33820E6526B0063F2F6 /* newsDetail.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = newsDetail.css; sourceTree = "<group>"; };
+		2074C33920E6526B0063F2F6 /* ArticalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticalDetailViewController.h; sourceTree = "<group>"; };
+		2074C3A620E7BAE80063F2F6 /* SSGamescoreDateHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGamescoreDateHeader.h; sourceTree = "<group>"; };
+		2074C3A720E7BAE80063F2F6 /* SSGamescoreDateHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGamescoreDateHeader.m; sourceTree = "<group>"; };
+		2074C3A920E7BAF20063F2F6 /* SSGamescoreDateHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSGamescoreDateHeader.xib; sourceTree = "<group>"; };
+		2074C3AB20E8C4370063F2F6 /* SSGameScoreAnalyseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGameScoreAnalyseViewController.h; sourceTree = "<group>"; };
+		2074C3AC20E8C4370063F2F6 /* SSGameScoreAnalyseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGameScoreAnalyseViewController.m; sourceTree = "<group>"; };
+		2074C3AE20E8C55B0063F2F6 /* SSGameScoreAnalyseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSGameScoreAnalyseViewController.xib; sourceTree = "<group>"; };
+		2074C3B120E8E7B70063F2F6 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		2074C3B220E8E7B70063F2F6 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		271A09E33E81C99501A43BF3 /* Pods-SoccerScoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerScoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerScoreTests/Pods-SoccerScoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66FB530D2879B23EFC5A33AE /* Pods-SoccerScoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerScoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerScoreUITests/Pods-SoccerScoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A436FD1AED7208EC3C3E0EDF /* libPods-SoccerScore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoccerScore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97F73EE8CCFD05221346C5F /* Pods-SoccerScoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerScoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerScoreUITests/Pods-SoccerScoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF7DEE2DF6505E2EB95E3CA1 /* Pods-SoccerScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerScore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerScore/Pods-SoccerScore.release.xcconfig"; sourceTree = "<group>"; };
+		F2FBDBB2852024E2C789EEC4 /* Pods-SoccerScoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerScoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerScoreTests/Pods-SoccerScoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD23603D9A59C0B004B29B2A /* Pods-SoccerScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoccerScore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoccerScore/Pods-SoccerScore.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2074C26620E3490E0063F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7642A9F142AB7F23D8972BB9 /* libPods-SoccerScore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2074C27E20E3490F0063F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81CFA4B1DE30EA307976E9 /* libPods-SoccerScoreTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2074C28920E3490F0063F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5A70A5871DC94957EB44A7 /* libPods-SoccerScoreUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2074C26020E3490D0063F2F6 = {
+			isa = PBXGroup;
+			children = (
+				2074C26B20E3490E0063F2F6 /* SoccerScore */,
+				2074C28420E3490F0063F2F6 /* SoccerScoreTests */,
+				2074C28F20E3490F0063F2F6 /* SoccerScoreUITests */,
+				2074C26A20E3490E0063F2F6 /* Products */,
+				F63D6B14768A2B77006D7408 /* Pods */,
+				E950F155EC16FB56C36E79BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2074C26A20E3490E0063F2F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2074C26920E3490E0063F2F6 /* SoccerScore.app */,
+				2074C28120E3490F0063F2F6 /* SoccerScoreTests.xctest */,
+				2074C28C20E3490F0063F2F6 /* SoccerScoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2074C26B20E3490E0063F2F6 /* SoccerScore */ = {
+			isa = PBXGroup;
+			children = (
+				2074C29E20E34E670063F2F6 /* MainCode */,
+				2074C26C20E3490E0063F2F6 /* AppDelegate.h */,
+				2074C26D20E3490E0063F2F6 /* AppDelegate.m */,
+				2074C27220E3490E0063F2F6 /* Main.storyboard */,
+				2074C27520E3490F0063F2F6 /* Assets.xcassets */,
+				2074C27720E3490F0063F2F6 /* LaunchScreen.storyboard */,
+				2074C27A20E3490F0063F2F6 /* Info.plist */,
+				2074C27B20E3490F0063F2F6 /* main.m */,
+				2074C2AB20E36C810063F2F6 /* ViewController.h */,
+				2074C2AC20E36C810063F2F6 /* ViewController.m */,
+			);
+			path = SoccerScore;
+			sourceTree = "<group>";
+		};
+		2074C28420E3490F0063F2F6 /* SoccerScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				2074C28520E3490F0063F2F6 /* SoccerScoreTests.m */,
+				2074C28720E3490F0063F2F6 /* Info.plist */,
+			);
+			path = SoccerScoreTests;
+			sourceTree = "<group>";
+		};
+		2074C28F20E3490F0063F2F6 /* SoccerScoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2074C29020E3490F0063F2F6 /* SoccerScoreUITests.m */,
+				2074C29220E3490F0063F2F6 /* Info.plist */,
+			);
+			path = SoccerScoreUITests;
+			sourceTree = "<group>";
+		};
+		2074C29E20E34E670063F2F6 /* MainCode */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2FE20E378810063F2F6 /* GameScore */,
+				2074C2FA20E378810063F2F6 /* Information */,
+				2074C2F020E3717F0063F2F6 /* BaseVc */,
+				2074C2CA20E36FD20063F2F6 /* Other */,
+				2074C2AE20E36DDD0063F2F6 /* GlobalUtil */,
+				2074C29F20E34E670063F2F6 /* GlobalManager */,
+			);
+			path = MainCode;
+			sourceTree = "<group>";
+		};
+		2074C29F20E34E670063F2F6 /* GlobalManager */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2A020E34E670063F2F6 /* NetManager */,
+				2074C2A320E34E670063F2F6 /* UserManager */,
+			);
+			path = GlobalManager;
+			sourceTree = "<group>";
+		};
+		2074C2A020E34E670063F2F6 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				2074C3B020E8E7B70063F2F6 /* NSString+Base64 */,
+				2074C2A120E34E670063F2F6 /* NTNetManager.h */,
+				2074C2A220E34E670063F2F6 /* NTNetManager.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		2074C2A320E34E670063F2F6 /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2A420E34E670063F2F6 /* UserManager.h */,
+				2074C2A520E34E670063F2F6 /* UserManager.m */,
+				2074C2A620E34E670063F2F6 /* UserModel.h */,
+				2074C2A720E34E670063F2F6 /* UserModel.m */,
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		2074C2AE20E36DDD0063F2F6 /* GlobalUtil */ = {
+			isa = PBXGroup;
+			children = (
+				2074C31520E382390063F2F6 /* TTUITableViewZoomController */,
+				2074C2AF20E36DDD0063F2F6 /* TTUIScrollViewSlidingPages */,
+			);
+			path = GlobalUtil;
+			sourceTree = "<group>";
+		};
+		2074C2AF20E36DDD0063F2F6 /* TTUIScrollViewSlidingPages */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2B020E36DDD0063F2F6 /* Images */,
+				2074C2B520E36DDD0063F2F6 /* TTBlackTriangle.h */,
+				2074C2B620E36DDD0063F2F6 /* TTBlackTriangle.m */,
+				2074C2B720E36DDD0063F2F6 /* TTScrollSlidingPagesController.h */,
+				2074C2B820E36DDD0063F2F6 /* TTScrollSlidingPagesController.m */,
+				2074C2B920E36DDD0063F2F6 /* TTScrollViewWrapper.h */,
+				2074C2BA20E36DDD0063F2F6 /* TTScrollViewWrapper.m */,
+				2074C2BB20E36DDD0063F2F6 /* TTSlidingPage.h */,
+				2074C2BC20E36DDD0063F2F6 /* TTSlidingPage.m */,
+				2074C2BD20E36DDD0063F2F6 /* TTSlidingPageDelegate.h */,
+				2074C2BE20E36DDD0063F2F6 /* TTSlidingPagesDataSource.h */,
+				2074C2BF20E36DDD0063F2F6 /* TTSlidingPageTitle.h */,
+				2074C2C020E36DDD0063F2F6 /* TTSlidingPageTitle.m */,
+				2074C2C120E36DDD0063F2F6 /* TTUIScrollViewSlidingPages.h */,
+			);
+			path = TTUIScrollViewSlidingPages;
+			sourceTree = "<group>";
+		};
+		2074C2B020E36DDD0063F2F6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2B120E36DDD0063F2F6 /* diagmonds */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2074C2B120E36DDD0063F2F6 /* diagmonds */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2B220E36DDD0063F2F6 /* diagmonds.png */,
+				2074C2B320E36DDD0063F2F6 /* diagmonds_@2X.png */,
+				2074C2B420E36DDD0063F2F6 /* readme.txt */,
+			);
+			path = diagmonds;
+			sourceTree = "<group>";
+		};
+		2074C2CA20E36FD20063F2F6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2CC20E36FD20063F2F6 /* Category */,
+				2074C2CB20E36FD20063F2F6 /* AppConstants.h */,
+				2074C2EE20E370560063F2F6 /* AppUtils.h */,
+				2074C2ED20E370560063F2F6 /* AppUtils.m */,
+				2074C2E020E36FD20063F2F6 /* ghjt.TTF */,
+				2074C2E120E36FD20063F2F6 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2074C2CC20E36FD20063F2F6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2CD20E36FD20063F2F6 /* MBProgressHUD+LH */,
+				2074C2D220E36FD20063F2F6 /* NSAttributedString+NTExtension.h */,
+				2074C2D320E36FD20063F2F6 /* NSAttributedString+NTExtension.m */,
+				2074C2D420E36FD20063F2F6 /* NSObject+NTExtension.h */,
+				2074C2D520E36FD20063F2F6 /* NSObject+NTExtension.m */,
+				2074C2D620E36FD20063F2F6 /* NSString+ResignExtension.h */,
+				2074C2D720E36FD20063F2F6 /* NSString+ResignExtension.m */,
+				2074C2D820E36FD20063F2F6 /* UIColor+NTExtension.h */,
+				2074C2D920E36FD20063F2F6 /* UIColor+NTExtension.m */,
+				2074C2DA20E36FD20063F2F6 /* UIImage+Extension.h */,
+				2074C2DB20E36FD20063F2F6 /* UIImage+Extension.m */,
+				2074C2DC20E36FD20063F2F6 /* UIView+NTExtension.h */,
+				2074C2DD20E36FD20063F2F6 /* UIView+NTExtension.m */,
+				2074C2DE20E36FD20063F2F6 /* UIViewController+Alert.h */,
+				2074C2DF20E36FD20063F2F6 /* UIViewController+Alert.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2074C2CD20E36FD20063F2F6 /* MBProgressHUD+LH */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2CE20E36FD20063F2F6 /* error@2x.png */,
+				2074C2CF20E36FD20063F2F6 /* MBProgressHUD+LT.h */,
+				2074C2D020E36FD20063F2F6 /* MBProgressHUD+LT.m */,
+				2074C2D120E36FD20063F2F6 /* success@2x.png */,
+			);
+			path = "MBProgressHUD+LH";
+			sourceTree = "<group>";
+		};
+		2074C2F020E3717F0063F2F6 /* BaseVc */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2F120E3717F0063F2F6 /* BaseNavigationController.h */,
+				2074C2F220E3717F0063F2F6 /* BaseNavigationController.m */,
+				2074C2F320E3717F0063F2F6 /* BaseTabBarController.h */,
+				2074C2F420E3717F0063F2F6 /* BaseTabBarController.m */,
+				2074C2F520E3717F0063F2F6 /* BaseViewController.h */,
+				2074C2F620E3717F0063F2F6 /* BaseViewController.m */,
+			);
+			path = BaseVc;
+			sourceTree = "<group>";
+		};
+		2074C2FA20E378810063F2F6 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2FB20E378810063F2F6 /* Controller */,
+				2074C2FC20E378810063F2F6 /* Model */,
+				2074C2FD20E378810063F2F6 /* View */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		2074C2FB20E378810063F2F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2074C33120E50EB10063F2F6 /* SSInformationPageViewController.h */,
+				2074C33220E50EB10063F2F6 /* SSInformationPageViewController.m */,
+				2074C33420E50EF10063F2F6 /* SSInformationTableViewController.h */,
+				2074C33520E50EF10063F2F6 /* SSInformationTableViewController.m */,
+				2074C33920E6526B0063F2F6 /* ArticalDetailViewController.h */,
+				2074C33720E6526B0063F2F6 /* ArticalDetailViewController.m */,
+				2074C33820E6526B0063F2F6 /* newsDetail.css */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2074C2FC20E378810063F2F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2074C32120E3ADDF0063F2F6 /* SSInformationModel.h */,
+				2074C32220E3ADDF0063F2F6 /* SSInformationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2074C2FD20E378810063F2F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2074C31C20E3AADB0063F2F6 /* SSInformationListCell.h */,
+				2074C31D20E3AADB0063F2F6 /* SSInformationListCell.m */,
+				2074C31E20E3AADB0063F2F6 /* SSInformationListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2074C2FE20E378810063F2F6 /* GameScore */ = {
+			isa = PBXGroup;
+			children = (
+				2074C2FF20E378810063F2F6 /* Controller */,
+				2074C30020E378810063F2F6 /* Model */,
+				2074C30120E378810063F2F6 /* View */,
+			);
+			path = GameScore;
+			sourceTree = "<group>";
+		};
+		2074C2FF20E378810063F2F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2074C30220E378BD0063F2F6 /* SSGameScorePageViewController.h */,
+				2074C30320E378BD0063F2F6 /* SSGameScorePageViewController.m */,
+				2074C31920E3AA2C0063F2F6 /* SSGameScoreTableViewController.h */,
+				2074C31A20E3AA2C0063F2F6 /* SSGameScoreTableViewController.m */,
+				2074C3AB20E8C4370063F2F6 /* SSGameScoreAnalyseViewController.h */,
+				2074C3AC20E8C4370063F2F6 /* SSGameScoreAnalyseViewController.m */,
+				2074C3AE20E8C55B0063F2F6 /* SSGameScoreAnalyseViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2074C30020E378810063F2F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2074C32420E3AE8E0063F2F6 /* SSGamescoreModel.h */,
+				2074C32520E3AE8E0063F2F6 /* SSGamescoreModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2074C30120E378810063F2F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2074C32C20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.h */,
+				2074C32D20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.m */,
+				2074C32E20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.xib */,
+				2074C3A620E7BAE80063F2F6 /* SSGamescoreDateHeader.h */,
+				2074C3A720E7BAE80063F2F6 /* SSGamescoreDateHeader.m */,
+				2074C3A920E7BAF20063F2F6 /* SSGamescoreDateHeader.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2074C31520E382390063F2F6 /* TTUITableViewZoomController */ = {
+			isa = PBXGroup;
+			children = (
+				2074C31620E382390063F2F6 /* TTUITableViewZoomController.h */,
+				2074C31720E382390063F2F6 /* TTUITableViewZoomController.m */,
+			);
+			path = TTUITableViewZoomController;
+			sourceTree = "<group>";
+		};
+		2074C3B020E8E7B70063F2F6 /* NSString+Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				2074C3B120E8E7B70063F2F6 /* NSString+Base64.h */,
+				2074C3B220E8E7B70063F2F6 /* NSString+Base64.m */,
+			);
+			path = "NSString+Base64";
+			sourceTree = "<group>";
+		};
+		E950F155EC16FB56C36E79BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A436FD1AED7208EC3C3E0EDF /* libPods-SoccerScore.a */,
+				147EAF51D2A7C0CB22A99F42 /* libPods-SoccerScoreTests.a */,
+				061857E3D126DBF781E7A607 /* libPods-SoccerScoreUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F63D6B14768A2B77006D7408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD23603D9A59C0B004B29B2A /* Pods-SoccerScore.debug.xcconfig */,
+				EF7DEE2DF6505E2EB95E3CA1 /* Pods-SoccerScore.release.xcconfig */,
+				271A09E33E81C99501A43BF3 /* Pods-SoccerScoreTests.debug.xcconfig */,
+				F2FBDBB2852024E2C789EEC4 /* Pods-SoccerScoreTests.release.xcconfig */,
+				C97F73EE8CCFD05221346C5F /* Pods-SoccerScoreUITests.debug.xcconfig */,
+				66FB530D2879B23EFC5A33AE /* Pods-SoccerScoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2074C26820E3490E0063F2F6 /* SoccerScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2074C29520E3490F0063F2F6 /* Build configuration list for PBXNativeTarget "SoccerScore" */;
+			buildPhases = (
+				7FADADD39BBAD72FD4FB9019 /* [CP] Check Pods Manifest.lock */,
+				2074C26520E3490E0063F2F6 /* Sources */,
+				2074C26620E3490E0063F2F6 /* Frameworks */,
+				2074C26720E3490E0063F2F6 /* Resources */,
+				0B912AA328FFD4211E2A0404 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerScore;
+			productName = SoccerScore;
+			productReference = 2074C26920E3490E0063F2F6 /* SoccerScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2074C28020E3490F0063F2F6 /* SoccerScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2074C29820E3490F0063F2F6 /* Build configuration list for PBXNativeTarget "SoccerScoreTests" */;
+			buildPhases = (
+				E256EEEAFBE82F13AC01FDD6 /* [CP] Check Pods Manifest.lock */,
+				2074C27D20E3490F0063F2F6 /* Sources */,
+				2074C27E20E3490F0063F2F6 /* Frameworks */,
+				2074C27F20E3490F0063F2F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2074C28320E3490F0063F2F6 /* PBXTargetDependency */,
+			);
+			name = SoccerScoreTests;
+			productName = SoccerScoreTests;
+			productReference = 2074C28120E3490F0063F2F6 /* SoccerScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2074C28B20E3490F0063F2F6 /* SoccerScoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2074C29B20E3490F0063F2F6 /* Build configuration list for PBXNativeTarget "SoccerScoreUITests" */;
+			buildPhases = (
+				4FC775E88042029560A8CB31 /* [CP] Check Pods Manifest.lock */,
+				2074C28820E3490F0063F2F6 /* Sources */,
+				2074C28920E3490F0063F2F6 /* Frameworks */,
+				2074C28A20E3490F0063F2F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2074C28E20E3490F0063F2F6 /* PBXTargetDependency */,
+			);
+			name = SoccerScoreUITests;
+			productName = SoccerScoreUITests;
+			productReference = 2074C28C20E3490F0063F2F6 /* SoccerScoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2074C26120E3490D0063F2F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "大雄";
+				TargetAttributes = {
+					2074C26820E3490E0063F2F6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2074C28020E3490F0063F2F6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2074C26820E3490E0063F2F6;
+					};
+					2074C28B20E3490F0063F2F6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2074C26820E3490E0063F2F6;
+					};
+				};
+			};
+			buildConfigurationList = 2074C26420E3490D0063F2F6 /* Build configuration list for PBXProject "SoccerScore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2074C26020E3490D0063F2F6;
+			productRefGroup = 2074C26A20E3490E0063F2F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2074C26820E3490E0063F2F6 /* SoccerScore */,
+				2074C28020E3490F0063F2F6 /* SoccerScoreTests */,
+				2074C28B20E3490F0063F2F6 /* SoccerScoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2074C26720E3490E0063F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2074C2C420E36DDD0063F2F6 /* readme.txt in Resources */,
+				2074C3AF20E8C55B0063F2F6 /* SSGameScoreAnalyseViewController.xib in Resources */,
+				2074C27920E3490F0063F2F6 /* LaunchScreen.storyboard in Resources */,
+				2074C33020E4ABE00063F2F6 /* SSGamescoreGunqiuCell.xib in Resources */,
+				2074C2C320E36DDD0063F2F6 /* diagmonds_@2X.png in Resources */,
+				2074C27620E3490F0063F2F6 /* Assets.xcassets in Resources */,
+				2074C3AA20E7BAF20063F2F6 /* SSGamescoreDateHeader.xib in Resources */,
+				2074C32020E3AADB0063F2F6 /* SSInformationListCell.xib in Resources */,
+				2074C2E420E36FD20063F2F6 /* success@2x.png in Resources */,
+				2074C2C220E36DDD0063F2F6 /* diagmonds.png in Resources */,
+				2074C27420E3490E0063F2F6 /* Main.storyboard in Resources */,
+				2074C33B20E6526B0063F2F6 /* newsDetail.css in Resources */,
+				2074C2EC20E36FD20063F2F6 /* ghjt.TTF in Resources */,
+				2074C2E220E36FD20063F2F6 /* error@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2074C27F20E3490F0063F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2074C28A20E3490F0063F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B912AA328FFD4211E2A0404 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SoccerScore/Pods-SoccerScore-resources.sh",
+				"${PODS_ROOT}/FlatUIKit/Resources/flat-ui-icons-regular.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Bold.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Italic.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Light.ttf",
+				"${PODS_ROOT}/FlatUIKit/Resources/Lato-Regular.ttf",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flat-ui-icons-regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Bold.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Italic.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Light.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lato-Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoccerScore/Pods-SoccerScore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC775E88042029560A8CB31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoccerScoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FADADD39BBAD72FD4FB9019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoccerScore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E256EEEAFBE82F13AC01FDD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoccerScoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2074C26520E3490E0063F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2074C3B320E8E7B70063F2F6 /* NSString+Base64.m in Sources */,
+				2074C31B20E3AA2C0063F2F6 /* SSGameScoreTableViewController.m in Sources */,
+				2074C32F20E4ABE00063F2F6 /* SSGamescoreGunqiuCell.m in Sources */,
+				2074C2C620E36DDD0063F2F6 /* TTScrollSlidingPagesController.m in Sources */,
+				2074C2E320E36FD20063F2F6 /* MBProgressHUD+LT.m in Sources */,
+				2074C30420E378BD0063F2F6 /* SSGameScorePageViewController.m in Sources */,
+				2074C2E920E36FD20063F2F6 /* UIImage+Extension.m in Sources */,
+				2074C2AD20E36C810063F2F6 /* ViewController.m in Sources */,
+				2074C27C20E3490F0063F2F6 /* main.m in Sources */,
+				2074C2E720E36FD20063F2F6 /* NSString+ResignExtension.m in Sources */,
+				2074C2AA20E34E670063F2F6 /* UserModel.m in Sources */,
+				2074C2EF20E370570063F2F6 /* AppUtils.m in Sources */,
+				2074C2F820E3717F0063F2F6 /* BaseTabBarController.m in Sources */,
+				2074C2F720E3717F0063F2F6 /* BaseNavigationController.m in Sources */,
+				2074C2E620E36FD20063F2F6 /* NSObject+NTExtension.m in Sources */,
+				2074C33A20E6526B0063F2F6 /* ArticalDetailViewController.m in Sources */,
+				2074C2EB20E36FD20063F2F6 /* UIViewController+Alert.m in Sources */,
+				2074C2E820E36FD20063F2F6 /* UIColor+NTExtension.m in Sources */,
+				2074C33620E50EF10063F2F6 /* SSInformationTableViewController.m in Sources */,
+				2074C2C720E36DDD0063F2F6 /* TTScrollViewWrapper.m in Sources */,
+				2074C2EA20E36FD20063F2F6 /* UIView+NTExtension.m in Sources */,
+				2074C31F20E3AADB0063F2F6 /* SSInformationListCell.m in Sources */,
+				2074C2C820E36DDD0063F2F6 /* TTSlidingPage.m in Sources */,
+				2074C2C920E36DDD0063F2F6 /* TTSlidingPageTitle.m in Sources */,
+				2074C26E20E3490E0063F2F6 /* AppDelegate.m in Sources */,
+				2074C2C520E36DDD0063F2F6 /* TTBlackTriangle.m in Sources */,
+				2074C33320E50EB10063F2F6 /* SSInformationPageViewController.m in Sources */,
+				2074C2A920E34E670063F2F6 /* UserManager.m in Sources */,
+				2074C32620E3AE8E0063F2F6 /* SSGamescoreModel.m in Sources */,
+				2074C2E520E36FD20063F2F6 /* NSAttributedString+NTExtension.m in Sources */,
+				2074C2A820E34E670063F2F6 /* NTNetManager.m in Sources */,
+				2074C3AD20E8C4370063F2F6 /* SSGameScoreAnalyseViewController.m in Sources */,
+				2074C31820E3823A0063F2F6 /* TTUITableViewZoomController.m in Sources */,
+				2074C3A820E7BAE80063F2F6 /* SSGamescoreDateHeader.m in Sources */,
+				2074C2F920E3717F0063F2F6 /* BaseViewController.m in Sources */,
+				2074C32320E3ADDF0063F2F6 /* SSInformationModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2074C27D20E3490F0063F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2074C28620E3490F0063F2F6 /* SoccerScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2074C28820E3490F0063F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2074C29120E3490F0063F2F6 /* SoccerScoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2074C28320E3490F0063F2F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2074C26820E3490E0063F2F6 /* SoccerScore */;
+			targetProxy = 2074C28220E3490F0063F2F6 /* PBXContainerItemProxy */;
+		};
+		2074C28E20E3490F0063F2F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2074C26820E3490E0063F2F6 /* SoccerScore */;
+			targetProxy = 2074C28D20E3490F0063F2F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2074C27220E3490E0063F2F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2074C27320E3490E0063F2F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2074C27720E3490F0063F2F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2074C27820E3490F0063F2F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2074C29320E3490F0063F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2074C29420E3490F0063F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2074C29620E3490F0063F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD23603D9A59C0B004B29B2A /* Pods-SoccerScore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7YM93Q8P3;
+				GCC_PREFIX_HEADER = SoccerScore/MainCode/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = SoccerScore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.football.wordcup.SoccerScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2074C29720E3490F0063F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7DEE2DF6505E2EB95E3CA1 /* Pods-SoccerScore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7YM93Q8P3;
+				GCC_PREFIX_HEADER = SoccerScore/MainCode/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = SoccerScore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.football.wordcup.SoccerScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2074C29920E3490F0063F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271A09E33E81C99501A43BF3 /* Pods-SoccerScoreTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoccerScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.football.wordcup.SoccerScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerScore.app/SoccerScore";
+			};
+			name = Debug;
+		};
+		2074C29A20E3490F0063F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FBDBB2852024E2C789EEC4 /* Pods-SoccerScoreTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoccerScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.football.wordcup.SoccerScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerScore.app/SoccerScore";
+			};
+			name = Release;
+		};
+		2074C29C20E3490F0063F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97F73EE8CCFD05221346C5F /* Pods-SoccerScoreUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoccerScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.football.wordcup.SoccerScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoccerScore;
+			};
+			name = Debug;
+		};
+		2074C29D20E3490F0063F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FB530D2879B23EFC5A33AE /* Pods-SoccerScoreUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoccerScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.football.wordcup.SoccerScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoccerScore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2074C26420E3490D0063F2F6 /* Build configuration list for PBXProject "SoccerScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2074C29320E3490F0063F2F6 /* Debug */,
+				2074C29420E3490F0063F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2074C29520E3490F0063F2F6 /* Build configuration list for PBXNativeTarget "SoccerScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2074C29620E3490F0063F2F6 /* Debug */,
+				2074C29720E3490F0063F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2074C29820E3490F0063F2F6 /* Build configuration list for PBXNativeTarget "SoccerScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2074C29920E3490F0063F2F6 /* Debug */,
+				2074C29A20E3490F0063F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2074C29B20E3490F0063F2F6 /* Build configuration list for PBXNativeTarget "SoccerScoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2074C29C20E3490F0063F2F6 /* Debug */,
+				2074C29D20E3490F0063F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2074C26120E3490D0063F2F6 /* Project object */;
+}

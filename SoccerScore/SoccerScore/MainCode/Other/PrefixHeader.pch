@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  GameGrade
+//
+//  Created by Neo on 2017/12/30.
+//  Copyright © 2017年 Neo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//全局类
+#import "AppUtils.h"
+#import "BaseViewController.h"
+#import "BaseNavigationController.h"
+
+#import "UIView+NTExtension.h"
+#import "UIColor+NTExtension.h"
+#import "MBProgressHUD+LT.h"
+#import "NTNetManager.h"
+
+#import <Masonry.h>
+#import <MJExtension.h>
+
+
+//自定义LOG
+#ifdef DEBUG
+#define NTLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define NTLog(...)
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
